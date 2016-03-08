@@ -787,3 +787,28 @@ margin-left: 20px;
 position:relative;
 }
 }
+
+#column-left .list-group-item{
+	background-color: #FFC400;
+}
+#column-left .list-group a{
+	color: green;
+}
+
+#column-left .list-group a:hover,#column-left .list-group a.active{
+	font-weight:  bold;
+}
+#column-left .list-group-header{
+	color: #fff;
+    background: #229ac8;
+    border: 1px solid #DDDDDD;
+    padding: 8px 12px;
+}
+
+#column-left .list-group-content{
+	color: #000;
+    background: #fff;
+    border: 1px solid #DDDDDD;
+    padding: 8px 12px;
+    text-align:  center;
+}
